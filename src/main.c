@@ -5,12 +5,14 @@ int main () {
   char name[] = "Muhammad Irwan Asikin";
   char title[] = "Bachelor of Animal Husbandry";
   float ipk = 3.61;
+  int year1 = 2020;
   int year = 2025;
   
   /* Build */
   printf("Name          : %s\n", name);
   printf("Title         : %s\n", title);
   printf("GPA           : %.2f\n", ipk);
+  printf("Year Enter    : %d\n", year1);
   printf("Year Graduate : %d\n", year);
   return 0;
 }
